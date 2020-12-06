@@ -29,7 +29,7 @@ def player2():
             break
 
         elif guess in guessed:
-            print("The letter is already guessed")
+            print("The letter/word is already guessed")
             print("".join(split_word))
             life -= 1
 
